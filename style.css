@@ -1,0 +1,129 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+  *{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: purple;
+  }
+
+  ::selection{
+    color: #fff;
+    background: purple;
+  }
+
+  .container{
+    background-color: #fff; 
+    width: 370px;
+    padding: 30px;
+    border-radius: 7px;
+
+  }
+
+  .container header {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .container form{
+    margin: 40px 0 20px 0;
+  }
+
+  form :where(input, select, button){
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+  }
+
+  form input{
+    height: 50px;
+    padding: 0 15px;
+    font-size: 17px;
+    border: 1px solid #999;
+  }
+
+  form p{
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  form input:focus{
+    border: 2px solid purple;
+    padding: 0 14px;
+  }
+
+  form .drop-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .drop-list .select-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 115px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    
+  }
+
+  .select-box select{
+    width : auto;
+    font-size: 16px;
+    margin:  0 -5px 0 5px;
+    background: none;
+    overflow: none;
+  }
+
+  .select-box select::-webkit-scrollbar{
+    width: 8px;
+  }
+
+  .select-box select::-webkit-scrollbar-track{
+    background: #fff;
+  }
+
+  .select-box select::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 8px;
+    border-radius: 2px solid #fff;
+  }
+
+  .select-box img{
+    max-width: 25px;
+  }
+
+  .drop-list .icon{
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  form .exchange-rate{
+    font-size: 17px;
+    margin: 20px 0;
+
+  }
+
+  form button{
+    height: 45px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background-color: purple;
+    transition: 0.3s ease;
+  }
