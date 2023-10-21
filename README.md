@@ -1,5 +1,8 @@
 # Currency-Exchange-Converter
 
+![image](https://github.com/shankersingh01/Currency-Exchange-Converter/assets/143743282/a397daa4-c2d0-45b8-8206-72868e273b1c)
+
+
 Description:
 ---
 The Currency Exchange Website is an innovative web application that seamlessly combines HTML, CSS, and JavaScript to deliver a powerful currency conversion tool.
@@ -10,9 +13,11 @@ Key Features:
 Dynamic Currency Rates:
 
 The website integrates a Currency Exchange API to fetch and display real-time currency exchange rates. This ensures users have access to the most up-to-date information for accurate conversions.
+
 Country Flag Display:
 
 Through the Flags API, the website showcases the flags of all participating countries, providing a visual reference for users to identify currencies effortlessly.
+
 User-Friendly Interface:
 
 The website's design prioritizes user experience, featuring an intuitive layout and navigation, allowing users to quickly and efficiently convert currencies.
@@ -20,7 +25,7 @@ The website's design prioritizes user experience, featuring an intuitive layout 
 Input Validation:
 
 JavaScript ensures that users input numerical values in the correct format, preventing errors and ensuring accurate conversions.
-Historical Exchange Rates (Optional):
+
 
 
 Technologies Used:
